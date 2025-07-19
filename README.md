@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Our React starter kit provides a robust, modern starting point for building Laravel applications with a React frontend using [Inertia](https://inertiajs.com). This starter kit includes modern tooling and dependency fixes that resolve common installation and build issues.
+The Laravel React starter kit provides a robust, modern starting point for building Laravel applications with a React frontend using [Inertia](https://inertiajs.com). This starter kit includes modern tooling and dependency fixes that resolve common installation and build issues.
 
 Inertia allows you to build modern, single-page React applications using classic server-side routing and controllers. This gives you the frontend power of React combined with Laravel's exceptional backend productivity and lightning-fast Vite compilation.
 
