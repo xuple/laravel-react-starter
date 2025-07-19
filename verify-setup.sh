@@ -11,6 +11,15 @@ fi
 
 echo "✅ Directory structure verified"
 
+# Test composer install
+echo "📦 Testing composer install..."
+if composer install --no-dev --optimize-autoloader --quiet; then
+    echo "✅ composer install successful"
+else
+    echo "❌ composer install failed"
+    exit 1
+fi
+
 # Test npm install
 echo "📦 Testing npm install..."
 if npm install --silent; then
